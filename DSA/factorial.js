@@ -1,3 +1,4 @@
+// using recursion
 function factorial(range) {
     if(range === 0){
       return 1;
