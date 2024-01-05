@@ -2,15 +2,17 @@ function isPrime(n) {
     if (n < 2) {
         return false;
     }
-    for (let i = 2; i < n; i++) {
+    for (let i = 2; i <= Math.sqrt(n); i++) {
         if (n % i === 0) {
             return false;
         }
-        return true;
     }
+    return true;
 }
 
-console.log(isPrime(10));
+console.log(isPrime(1));
+
+// TC = O(sqrt(n))
 
 function printAllPrime(n) {
     let arr = [];
@@ -24,3 +26,4 @@ function printAllPrime(n) {
 
 }
 printAllPrime(50);
+// 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47
