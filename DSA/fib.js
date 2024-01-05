@@ -9,3 +9,5 @@ function fibonacci(range) {
 console.log(fibonacci(5));
 console.log(fibonacci(7));
 console.log(fibonacci(9));
+
+// TC = O(n)

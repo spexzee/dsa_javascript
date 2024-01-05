@@ -9,3 +9,6 @@ const ReverseString = (str) => {
 let str = "Abu"
  let result = ReverseString(str)
 console.log(result);
+
+
+// TC = O(n)

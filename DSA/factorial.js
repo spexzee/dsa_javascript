@@ -10,3 +10,5 @@ function factorial(range) {
 console.log(factorial(5));
 console.log(factorial(7));
 console.log(factorial(9));
+
+// TC = O(n)

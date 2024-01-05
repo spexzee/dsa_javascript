@@ -10,3 +10,6 @@ var findWordsContaining = function(words, x) {
     return arr;
 };;
 console.log(findWordsContaining(words, x ));
+
+// TC = O(n)
+
